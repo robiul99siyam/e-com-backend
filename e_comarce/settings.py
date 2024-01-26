@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-0k_5&^#dswdgzb=y@5@@sdgx#wh9wsg&l2b6#yr^5od6(u$lqa
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://e-com-backend-jhtj.onrender.com','https://*.127.0.0.1']
+
 
 
 # Application definition
